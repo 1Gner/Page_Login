@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.card-left {
+    max-width: 550px;
+    background-image: url('../../../assets/img/back.png');
+    background-repeat: no-repeat;
+
+
+    .menu {
+        display: flex;
+        gap: 5px;
+        padding-left:  80px;
+        padding-top: 60px;
+
+        .menu-icon {
+            display: flex;
+            margin-top: auto;
+            margin-bottom: auto;
+
+            img {
+                max-width: auto;
+                height: auto;
+
+            }
+
+        }
+
+        .menu-list {
+            list-style-type: none;
+        }
+    }
+
+
+    .text-menu {
+        margin-top: auto;
+        margin-bottom: auto;
+
+        h2 {
+
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            color: white;
+        }
+    }
+
+
+
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding-top: 290px;
+        gap: 15px;
+
+
+        .photo-logo {
+            margin-top: auto;
+            margin-bottom: auto;
+
+            img {
+                max-width: 40px;
+                height: auto;
+                filter: invert(100%) brightness(1000%);
+            }
+        }
+
+        .text-logo {
+            margin-top: auto;
+            margin-bottom: auto;
+
+            h1 {
+                font-size: 32px;
+                font-family: "Inter", sans-serif;
+                font-weight: bold;
+                color: white;
+
+            }
+        }
+    }
+
+    .social-login {
+        padding-top: 307px;
+        padding-bottom: 90px;
+        display: flex;
+        justify-content: center;
+
+        .list-social-login {
+            .list {
+                display: flex;
+                list-style-type: none;
+                gap: 10px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+
+}

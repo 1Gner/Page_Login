@@ -1,0 +1,32 @@
+<div class="card-right">
+    <div class="text-login">
+        <h1>Login</h1>
+    </div>
+
+
+    <div class="formulario">
+        <form [formGroup]="meuForm" (ngSubmit)="onSubmit()">
+            <div class="username">
+                <label for="username">Username</label>
+                <div class="inp">
+                    <input id="username" formControlName="username" placeholder="Username" />
+
+                    <i class="icon"><img src="../../../assets/img/Profile.png" alt=""></i>
+                </div>
+            </div>
+
+
+            <div class="password">
+                <label for="password">Password</label>
+                <div class="inp2">
+                    <input id="password" formControlName="password" placeholder="Password" />
+                    <i class="icon2"><img src="../../../assets/img/Profile.png" alt=""></i>
+                </div>
+            </div>
+
+            <div class="botao-enviar">
+                <button type="submit" class="botao"> Login  ></button>
+            </div>
+        </form>
+    </div>
+</div>
