@@ -33,26 +33,30 @@
                 input {
                     margin-top: 5px;
                     background-color: #F2F4F7;
-                    padding: 20px 18px;
+                    padding: 20px 0px;
+                    padding-left: 25px;
                     width: 100%;
                     border: #F2F4F7;
                     border-radius: 10px;
                 }
 
-                i {
+
+
+                img {
+                    padding-top: 4px;
                     padding-left: 4px;
                     position: absolute;
-
-                    img {
-                        max-width: 18px;
-                        height: auto;
-                    }
+                    max-width: 20px;
+                    height: auto;
+                   
                 }
             }
         }
 
+
         .password {
             margin-top: 26px;
+
             label {
                 color: #98A2B3;
             }
@@ -65,40 +69,49 @@
                 input {
                     margin-top: 5px;
                     background-color: #F2F4F7;
-                    padding: 20px 18px;
+                    padding: 20px 0px;
+                    padding-left: 25px;
                     width: 100%;
 
                     border: #F2F4F7;
                     border-radius: 10px;
                 }
 
-                i {
+
+
+                img {
+                    padding-top: 4px;
                     padding-left: 4px;
                     position: absolute;
-
-                    img {
-                        max-width: 18px;
-                        height: auto;
-                    }
+                    max-width: 20px;
+                    height: auto;
+                    
+                 
                 }
             }
-        }
-    }
 
-    .botao-enviar {
-        margin-top: 45px;
-        display: flex;
-        justify-content: end;
-
-        button {
-            font-family: "Inter", sans-serif;
-            
-            padding: 16px 28px;
-            background-color: #1570EF;
-            border-radius: 8px;
-            border: #1570EF;
-            color: white;
         }
 
+
+
+        .botao-enviar {
+            margin-top: 45px;
+            display: flex;
+            justify-content: end;
+
+            button {
+                font-family: "Inter", sans-serif;
+
+                padding: 16px 28px;
+                background-color: #1570EF;
+                border-radius: 8px;
+                border: #1570EF;
+                color: white;
+
+            }
+
+        }
+
     }
+
 }
